@@ -1,0 +1,26 @@
+{
+        "db": {
+                "url": "mongodb://localhost/showcrawler",
+                "collection": "shows"
+        },
+        "http": {
+                "options": "embed=cast",
+                "attempts": 5,
+                "errorTimeout": 30000,
+                "skipRetryError": 404,
+                "host": "http://api.tvmaze.com",
+                "endpoint": "/shows/"
+        },
+        "crawler": {
+                "parallelRequests": 10,
+                "notFoundThreshold": 30,
+                "regularTimeout": 10000
+        },
+        "logger":{
+               "level": "debug"
+        },
+        "app": {
+                "ignoreLoaded": false
+        }
+}
+

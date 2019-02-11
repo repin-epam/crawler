@@ -1,0 +1,14 @@
+{
+  "db": {
+    "url": "mongodb://localhost/showcrawler",
+    "collection": "shows",
+    "pageSize" : 10
+  },
+  "http": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "logger":{
+    "level": "debug"
+  }
+}

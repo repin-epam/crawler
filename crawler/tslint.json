@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "arrow-parens": false,
+        "trailing-comma": [ false ],
+        "object-literal-sort-keys": false,
+        "interface-name": [true, "never-prefix"],
+        "no-empty": false,
+        "only-arrow-functions": false,
+        "radix": false
+    },
+    "rulesDirectory": []
+}
